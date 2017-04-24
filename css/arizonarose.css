@@ -1,0 +1,95 @@
+/*
+#9AC8C8
+#3A1220
+#D4DCC8
+#A39991
+#715555
+*/
+
+@font-face {
+	font-family: "jkg-l";
+	src: url('../font/JKG-L.ttf');
+}
+
+body {
+	background-image: url("../img/arizonabg.png");
+    	background-repeat:no-repeat;
+    	background-size:cover;
+	background-position: left center; 
+}
+
+.wrapper {
+	width: 436px;
+	height: 460px;
+	border: 3px solid #3A1220;
+	margin: auto;
+	margin-top: 220px;
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+	transition: width 0.7s;
+}
+
+.wrapper:hover {
+	width: 960px;
+	transition: width 0.4s;
+}
+
+img {
+	height: 100%;
+}
+
+.links {
+	background-color: #D4DCC8;
+	width: 92%;
+	font-size: 20px;
+	color: #3A1220;
+	padding-left: 30px;
+	font-family: jkg-l;
+	white-space: nowrap;
+	display: inline;
+}
+
+span {
+	display: block;
+	font-size: 55px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+a {
+	color: #3A1220;
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+a:hover {
+	color: #A39991;
+}
+
+.colors {
+	width: 8%;
+	display: flex;
+	flex-direction: column;
+}
+
+.color1 {
+	height: 25%;
+	background-color: #B1D4B6;
+}
+
+.color2 {
+	height: 25%;
+	background-color: #53CBBF;
+}
+
+.color3 {
+	height: 25%;
+	background-color: #FA7785;
+}
+
+.color4 {
+	height: 25%;
+	background-color: #7D0169;
+}
